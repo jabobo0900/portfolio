@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    flex-flow: row;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    border: 7px solid rgb(255, 255, 255)
+}
+
+.ImageFlex {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center space-evenly
+}
+
+.NavFlex {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center space-evenly;
+}
+
+.content-wrapper{
+    width: 500;
+    margin: 4% 10% 5% 10%
+}
+
+.content-wrapper img{
+    width: 500px
+}
+
+.text-wrapper{
+    width: 500px;
+    position: relative;
+    margin-top:-40;
+}
+
+.text-wrapper p{
+    text-align: center;
+    color: white;
+    font-size: 10vw;
+    font-family: 'Arvo', serif;
+    
+}
